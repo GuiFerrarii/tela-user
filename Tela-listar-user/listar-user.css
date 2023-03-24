@@ -282,6 +282,15 @@ main{
 
 .tables{
     margin-left: 5%;
+    border: 1px red solid;
+    
+}
+
+
+.tables tr{ 
+    padding: 10px;
+cursor: pointer;
+    
 }
 
 .tabela_listagem {
