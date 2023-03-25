@@ -21,6 +21,7 @@
 
 
 
+
 /* header, navegação */
 
 header{
@@ -282,14 +283,14 @@ main{
 
 .tables{
     margin-left: 5%;
-    border: 1px red solid;
+    
     
 }
 
 
 .tables tr{ 
     padding: 10px;
-cursor: pointer;
+    cursor: pointer;
     
 }
 
@@ -310,12 +311,7 @@ cursor: pointer;
     width: 40%;
 }
 
-.tabela_listagem th {
-    position: sticky;
-    left: 0;
-    z-index: 1;
-    background-color: white;
-}
+
 
 .table_admin{
     display: none;
@@ -343,6 +339,120 @@ footer .right img{
 
 /* ================================================ */
 /* modais */
+
+.line-1 {
+    border-top: 1px solid black;
+    margin-top: 1vh;
+  }
+
+  .line-2 {
+    border-top: 1px solid black;
+    margin-top: 3.5vh;
+  }
+  
+
+
+
+.info{
+    text-align: start;
+  }
+  
+  
+  
+  .info p {
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #434141;
+    margin-top: 36px;
+    /* white-space: nowrap; */
+    
+   
+  }
+
+   #exc{
+    margin-top: 3vh;
+    margin-left: 5vh;
+  }
+
+  #edit{
+    margin-left: 13vh;
+  }
+  
+  
+  
+  
+  .modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+  }
+  .modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 1.5rem 2.5rem;
+    height: 400px;
+    width: 400px;
+    border-radius: 0.5rem;
+    
+  }
+  
+  .modal-content h2{
+    color: #434141;
+    margin-top: 15px;
+    font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 41px;
+  /* text-align: center; */
+  letter-spacing: 0.02em;
+  margin-left: 30%;
+  
+  color: #434141;
+  }
+  .close-button {
+    float: right;
+    width: 1.3rem;
+    font-size: 1.2em;
+    line-height: 1;
+    padding: 0 .2em .15em;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 2rem;
+    background-color: #F78B1F;
+    color: #fff;
+    transition: color 0.12s ease-in-out;
+  }
+  
+  .show-modal {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+    transition: visibility 0s linear 0s, opacity 0.20s 0s, transform 0.25s;
+    backdrop-filter: blur(1px);
+    
+    
+    
+  }
+  
+  
+
+
+
+
 
 /* estilização do modal */
 .modal-cad-user {
